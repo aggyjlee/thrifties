@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    margin: 0;padding: 0; box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+#header {
+    font-family: 'Montserrat';
+    margin: 20px auto;
+    max-width:600px;
+    color: white;
+}
+
+#header h1 {
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 0px 0px 10px #000;
+}
+
+#header p {
+    margin-top: 2vh;
+    text-align: center;
+}
+
+section{
+    display: grid;
+    place-items:center;
+}
+
+article, section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#story_hed{
+    /* border: solid red 1px; */
+    position: relative;
+    margin-left: auto; 
+    margin-right: 60%;
+}
+
+#story_para {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-align: left;
+    padding-top: -2vh;
+    /* margin: 10px auto; */
+    max-width: 700px;
+}
+
+h2{
+    text-align: left;
+    color: white;
+    font-size: 30px;
+    max-width: 700px;
+    /* margin: 10px auto; */
+}
+
+
+.drop-cap:first-child:first-letter {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 62px;
+    float: left;
+    line-height: 48px;
+    margin-top: 10px;
+    padding-right: 8px;
+}
+
+#shirt{
+    fill: white;
+    width: 15%;
+}
+
+#timeline_headline {
+    font-size: 30px;
+    color:#14163d;
+}
+
+#timeline_format{
+    max-width: 800px;
+}
+
+#timeline_map {
+    max-width: 600px;
+    width:100%;
+    border: #14163d 3px solid;
+}
+
+
+#timeline_key{
+    position: absolute;
+    padding-left: 5vh;
+    width: 20%;
+}
+
+.buttons{
+    margin: 2vh auto;
+    max-width: 800px;
+}
+
+.button{
+    margin-top: 2vh;
+    margin-right:2vh;
+    background-color: #E04641;
+    border: 1px solid #E04641;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+input {
+    appearance: none;
+    margin: 0;
+}
+
+.button:hover {
+    background-color: #fff;
+    border: 1px solid #E04641;
+    color: #333;
+}
+
+/** Slideshow **/
+
+#slideshow_text h1{
+    margin-bottom: 5vh;
+    font-size: 30px;
+    text-align: center;
+}
+
+#slideshow_text p{
+    margin-top: -4vh;
+    margin-bottom: 5vh;
+    font-size: 15px;
+    text-align: center;
+}
+
+.container {
+    width: 35vh;
+    height: 55vh;
+    position: relative;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    perspective: 800px;
+    float:left;
+    margin-right: 5px;
+}
+.card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+.card div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 260px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 140px;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card .front {
+  background: red;
+}
+
+.card .back {
+    background: blue;
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+.outfit1-front, .outfit1-back, .outfit2-front, 
+.outfit2-back, .outfit3-front, .outfit3-front, 
+.outfit3-back, .outfit4-front, .outfit4-back,
+.outfit5-front, .outfit5-back {
+    width: 35vh;
+    height: 55vh;
+}
+
+.outfit1-back{
+    width: 35vh;
+    height: 55vh;
+}
+
+.outfit1-back:hover, .outfit2-back:hover,
+.outfit3-back:hover, .outfit4-back:hover,
+.outfit5-back:hover {
+    cursor: pointer;
+}
+
+.card.flipped {
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+.label1 {
+    max-width:35%;
+    padding-left: 25vh;
+    padding-top: 8vh;
+    position: absolute;
+    z-index: 1;
+    opacity: 0%;
+}
+
+.label2 {
+    max-width:28%;
+    padding-left: 10vh;
+    padding-top: 30vh;
+    position: absolute;
+    z-index: 1;
+    opacity: 0%;
+}
+
+.label3 {
+    max-width:50%;
+    padding-left: 55vh;
+    padding-top: 30vh;
+    position: absolute;
+    z-index: 1;
+    opacity: 0%;
+}
+
+.label4 {
+    max-width:85%;
+    padding-left: 125vh;
+    padding-top: 8vh;
+    position: absolute;
+    z-index: 1;
+    opacity: 0%;
+}
+
+.label5 {
+    max-width: 82%;
+    padding-left: 120vh;
+    padding-top: 30vh;
+    position: absolute;
+    z-index: 1;
+    opacity: 0%;
+}
+
+
+.one{
+    background: url(images/overlay.png), url(images/heldover.jpg);
+    background-size: cover;
+}
+
+.two{background-color: #7B8060;}
+.three{background-color: #7B8060;}
+.four{background-color: white;}
+.five{background-color: #7B8060;}
+.six{background-color: white;}
+.seven{background-color:#7B8060;}
