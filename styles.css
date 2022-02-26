@@ -37,6 +37,10 @@ article, section{
     overflow: hidden;
 }
 
+#subhead {
+    font-size: 25px;
+}
+
 #story_hed{
     /* border: solid red 1px; */
     position: relative;
@@ -51,7 +55,16 @@ article, section{
     text-align: left;
     padding-top: -2vh;
     /* margin: 10px auto; */
-    max-width: 700px;
+    max-width: 800px;
+}
+
+#story_para_final {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-align: left;
+    /* margin: 10px auto; */
+    max-width: 800px;
 }
 
 h2{
@@ -70,7 +83,7 @@ h2{
     font-size: 62px;
     float: left;
     line-height: 48px;
-    margin-top: 10px;
+    margin-top: 3px;
     padding-right: 8px;
 }
 
@@ -283,3 +296,6 @@ input {
 .five{background-color: #7B8060;}
 .six{background-color: white;}
 .seven{background-color:#7B8060;}
+.eight{background-color:#7B8060;}
+.nine{background-color:white;}
+.ten{background-color:black;}
