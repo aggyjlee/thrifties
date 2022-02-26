@@ -10,8 +10,8 @@ pageAnimations.from(".two", {yPercent: 100})
 .from(".six", {yPercent: 100})
 .from(".seven", {yPercent: 100})
 .from(".eight", {yPercent: 100})
-.from(".nine", {yPercent: 100})
-.from(".ten", {yPercent: 100})
+// .from(".nine", {yPercent: 100})
+// .from(".ten", {yPercent: 100})
 
 
 // "self contained" ScrollTrigger
