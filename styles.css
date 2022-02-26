@@ -53,9 +53,9 @@ article, section{
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     text-align: left;
-    padding-top: -2vh;
+    padding-top: 2vh;
     /* margin: 10px auto; */
-    max-width: 800px;
+    max-width: 900px;
 }
 
 #story_para_final {
