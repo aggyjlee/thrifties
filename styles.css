@@ -5,44 +5,51 @@
     font-family: "Montserrat";
 }
 
-#header {
-    font-family: 'Montserrat';
-    margin: 20px auto;
-    max-width:600px;
-    color: white;
+
+/* HERO IMAGE */
+
+#hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(images/overlay.png), url(images/header.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #7B8060;
 }
 
-#header h1 {
+#hero-inner h1{
+    max-width: 800px;
+    color: white;
     font-size: 60px;
     text-align: center;
     text-shadow: 0px 0px 10px #000;
 }
 
-#subhead {
-    font-size: 25px;
-    padding-top: -100vh;
+#hero-inner h3{
+    margin-top:2vh;
+    color: white;
+    text-shadow: 0px 0px 10px #000;
+}
+
+#hero-inner p{
+    margin-top:10vh;
+    color: white;
     text-align: center;
     text-shadow: 0px 0px 10px #000;
 }
 
-#byline{
-    margin-top: 2vh;
-    text-align: center;
-    text-shadow: 0px 0px 10px #000;
-}
+/* Article Copy */
 
-section{
-    display: grid;
-    place-items:center;
-}
-
-article, section{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+main{
+    max-width: 800px;
+    margin: 20px auto;
 }
 
 #story_hed{
@@ -52,18 +59,19 @@ article, section{
     margin-right: 60%;
 }
 
-#story_para {
-    color: white;
+.story_para {
+    color: black;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     text-align: left;
     padding-top: 2vh;
+    padding-bottom: 2vh;
     /* margin: 10px auto; */
     max-width: 900px;
 }
 
 #story_para_final {
-    color: white;
+    color: black;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     text-align: left;
@@ -73,15 +81,15 @@ article, section{
 
 h2{
     text-align: left;
-    color: white;
+    color: #7B8060;
     font-size: 30px;
     max-width: 700px;
     /* margin: 10px auto; */
 }
 
 
-.drop-cap:first-child:first-letter {
-    color: white;
+#drop-cap:first-child:first-letter {
+    color: #7B8060;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 62px;
@@ -91,9 +99,20 @@ h2{
     padding-right: 8px;
 }
 
+.page_break{
+    display:flex;
+}
+
 #shirt{
-    fill: white;
-    width: 15%;
+    position: relative;
+    fill: #7B8060;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#timeline{
+    padding-top:10vh;
+    padding-bottom:10vh;
 }
 
 #timeline_headline {
@@ -162,144 +181,107 @@ input {
     text-align: center;
 }
 
-.container {
+/* .indigovintage {
+    border: 2px solid red;
+} */
+
+.ivpic {
+    display: inline-block;
     width: 35vh;
     height: 55vh;
-    position: relative;
-    -webkit-perspective: 800px;
-    -moz-perspective: 800px;
-    -o-perspective: 800px;
-    perspective: 800px;
-    float:left;
-    margin-right: 5px;
-}
-.card {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    -webkit-transition: -webkit-transform 1s;
-    -moz-transition: -moz-transform 1s;
-    -o-transition: -o-transform 1s;
-    transition: transform 1s;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
+    background: url("images/indigovintage.jpg") no-repeat;
+    background-size: contain;
 }
 
-.card div {
-    display: block;
-    height: 100%;
-    width: 100%;
-    line-height: 260px;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    font-size: 140px;
-    position: absolute;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -o-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-.card .front {
-  background: red;
-}
-
-.card .back {
-    background: blue;
-    -webkit-transform: rotateY( 180deg );
-    -moz-transform: rotateY( 180deg );
-    -o-transform: rotateY( 180deg );
-    transform: rotateY( 180deg );
-}
-
-.outfit1-front, .outfit1-back, .outfit2-front, 
-.outfit2-back, .outfit3-front, .outfit3-front, 
-.outfit3-back, .outfit4-front, .outfit4-back,
-.outfit5-front, .outfit5-back {
-    width: 35vh;
-    height: 55vh;
-}
-
-.outfit1-back{
-    width: 35vh;
-    height: 55vh;
-}
-
-.outfit1-back:hover, .outfit2-back:hover,
-.outfit3-back:hover, .outfit4-back:hover,
-.outfit5-back:hover {
+.ivpic:hover{
+    background: url("images/heldover.jpg") no-repeat;
+    background-size: contain;
     cursor: pointer;
 }
 
-.card.flipped {
-    -webkit-transform: rotateY( 180deg );
-    -moz-transform: rotateY( 180deg );
-    -o-transform: rotateY( 180deg );
-    transform: rotateY( 180deg );
+.iv_infocard{
+    background: url("images/heldover.jpg") no-repeat;
+    display: inline-block;
+    width:63vh;
+    height: 55vh;
+    display:none;
+}
+/* 
+.heldover {
+    border: 2px solid red;
+} */
+
+.hopic {
+    display: inline-block;
+    width: 35vh;
+    height: 55vh;
+    background: url("images/heldover.jpg") no-repeat;
+    background-size: contain;
 }
 
-.label1 {
-    max-width:35%;
-    padding-left: 25vh;
-    padding-top: 8vh;
-    position: absolute;
-    z-index: 1;
-    opacity: 0%;
+.hopic:hover{
+    background: url("images/indigovintage.jpg") no-repeat;
+    background-size: contain;
+    cursor: pointer;
 }
 
-.label2 {
-    max-width:28%;
-    padding-left: 10vh;
-    padding-top: 30vh;
-    position: absolute;
-    z-index: 1;
-    opacity: 0%;
+.ho_infocard{
+    background: url("images/heldover.jpg") no-repeat;
+    display: inline-block;
+    width:63vh;
+    height: 55vh;
+    display:none;
 }
 
-.label3 {
-    max-width:50%;
-    padding-left: 55vh;
-    padding-top: 30vh;
-    position: absolute;
-    z-index: 1;
-    opacity: 0%;
+/* .wasteland {
+    border: 2px solid red;
+} */
+
+.wlpic {
+    display: inline-block;
+    width: 35vh;
+    height: 55vh;
+    background: url("images/wasteland.jpg") no-repeat;
+    background-size: contain;
 }
 
-.label4 {
-    max-width:85%;
-    padding-left: 125vh;
-    padding-top: 8vh;
-    position: absolute;
-    z-index: 1;
-    opacity: 0%;
+.wlpic:hover{
+    background: url("images/indigovintage.jpg") no-repeat;
+    background-size: contain;
+    cursor: pointer;
 }
 
-.label5 {
-    max-width: 82%;
-    padding-left: 120vh;
-    padding-top: 30vh;
-    position: absolute;
-    z-index: 1;
-    opacity: 0%;
+.wl_infocard{
+    background: url("images/wasteland.jpg") no-repeat;
+    padding-left: 5vh;
+    display: inline-block;
+    width:63vh;
+    height: 55vh;
+    display:none;
 }
 
+/* .rvca {
+    border: 2px solid red;
+} */
 
-.one{
-    background: url(images/overlay.png), url(images/heldover.jpg);
-    background-size: cover;
+.rvpic {
+    display: inline-block;
+    width: 35vh;
+    height: 55vh;
+    background: url("images/rvca.jpeg") no-repeat;
+    background-size: contain;
 }
 
-.two{background-color: #7B8060;}
-.three{background-color: #7B8060;}
-.four{background-color: white;}
-.five{background-color: #7B8060;}
-.six{background-color: white;}
-.seven{background-color:#7B8060;}
-.eight{background-color:#7B8060;}
-/* .nine{background-color:white;}
-.ten{background-color:black;} */
+.rvpic:hover{
+    background: url("images/indigovintage.jpg") no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.rv_infocard{
+    background: url("images/wasteland.jpg") no-repeat;
+    display: inline-block;
+    width:63vh;
+    height: 55vh;
+    display:none;
+}

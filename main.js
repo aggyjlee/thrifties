@@ -1,28 +1,28 @@
-/** Scrollytelling */
+// /** Scrollytelling */
 
-// timeline - preplace pages off screen
-const pageAnimations = gsap.timeline();
+// // timeline - preplace pages off screen
+// const pageAnimations = gsap.timeline();
 
-pageAnimations.from(".two", {yPercent: 100})
-.from(".three", {yPercent: 100})
-.from(".four", {yPercent: 100})
-.from(".five", {yPercent: 100})
-.from(".six", {yPercent: 100})
-.from(".seven", {yPercent: 100})
-.from(".eight", {yPercent: 100})
+// pageAnimations.from(".two", {yPercent: 100})
+// .from(".three", {yPercent: 100})
+// .from(".four", {yPercent: 100})
+// .from(".five", {yPercent: 100})
+// .from(".six", {yPercent: 100})
+// .from(".seven", {yPercent: 100})
+// .from(".eight", {yPercent: 100})
 // .from(".nine", {yPercent: 100})
-// .from(".ten", {yPercent: 100})
+// // .from(".ten", {yPercent: 100})
 
 
-// "self contained" ScrollTrigger
-ScrollTrigger.create({
-    animation: pageAnimations,
-    trigger: "article",
-    start: "top top",
-    end: "+=1000%",
-    scrub: true,
-    pin: true,
-});
+// // "self contained" ScrollTrigger
+// ScrollTrigger.create({
+//     animation: pageAnimations,
+//     trigger: "article",
+//     start: "top top",
+//     end: "+=1000%",
+//     scrub: true,
+//     pin: true,
+// });
 
 
 /** Interactive Element – Timeline Map */
@@ -41,46 +41,20 @@ date_buttons.forEach(button => {
 
 
 /** Interactive Element - Outfit Slideshow */
-$('.card').click(function(){
-    $(this).toggleClass('flipped');
- }) 
  
-function hover1(){
-    gsap.to(".label1", {opacity:1, duration:0.1});
-    gsap.set(".label2", {opacity:0});
-    gsap.set(".label3", {opacity:0});
-    gsap.set(".label4", {opacity:0});
-    gsap.set(".label5", {opacity:0});
+function opendrawer1(){
+    TweenLite.to($('.iv_infocard') , {autoAlpha: 1, display:'inline-block'});
 }
 
-function hover2(){
-    gsap.set(".label1", {opacity:0});
-    gsap.to(".label2", {opacity:1, duration:0.1});
-    gsap.set(".label3", {opacity:0});
-    gsap.set(".label4", {opacity:0});
-    gsap.set(".label5", {opacity:0});
+function opendrawer2(){
+    TweenLite.to($('.ho_infocard'), {autoAlpha: 1, display:'inline-block'});
 }
 
-function hover3(){
-    gsap.set(".label1", {opacity:0});
-    gsap.set(".label2", {opacity:0});
-    gsap.to(".label3", {opacity:1, duration:0.1});
-    gsap.set(".label4", {opacity:0});
-    gsap.set(".label5", {opacity:0});
+function opendrawer3(){
+    TweenLite.to($('.wl_infocard'), {autoAlpha: 1, display:'inline-block'});
 }
 
-function hover4(){
-    gsap.set(".label1", {opacity:0});
-    gsap.set(".label2", {opacity:0});
-    gsap.set(".label3", {opacity:0});
-    gsap.to(".label4", {opacity:1, duration:0.1});
-    gsap.set(".label5", {opacity:0});
+function opendrawer4(){
+    TweenLite.to($('.rv_infocard'), {autoAlpha: 1, display:'inline-block'});
 }
  
-function hover5(){
-    gsap.set(".label1", {opacity:0});
-    gsap.set(".label2", {opacity:0});
-    gsap.set(".label3", {opacity:0});
-    gsap.set(".label4", {opacity:0});
-    gsap.to(".label5", {opacity:1, duration:0.1});
-}
