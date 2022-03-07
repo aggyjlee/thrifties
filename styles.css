@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Josefin+Sans:wght@600&display=swap");
+
 
 *{
     margin: 0;padding: 0; box-sizing: border-box;
-    font-family: "Montserrat";
+    font-family: "Cardo";
 }
 
 
@@ -22,17 +23,20 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #7B8060;
+    z-index: 1;
 }
 
 #hero-inner h1{
-    max-width: 800px;
+    max-width: 600px;
     color: white;
+    font-family: "Josefin Sans";
     font-size: 60px;
     text-align: center;
     text-shadow: 0px 0px 10px #000;
 }
 
 #hero-inner h3{
+    font-family: "Josefin Sans";
     margin-top:2vh;
     color: white;
     text-shadow: 0px 0px 10px #000;
@@ -45,12 +49,22 @@
     text-shadow: 0px 0px 10px #000;
 }
 
+
 /* Article Copy */
 
 main{
     max-width: 800px;
     margin: 20px auto;
 }
+
+em{
+    font-style: italic;
+}
+
+sup { 
+    vertical-align: super;
+    font-size: xx-small;
+  }
 
 #story_hed{
     /* border: solid red 1px; */
@@ -61,7 +75,7 @@ main{
 
 .story_para {
     color: black;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Cardo";
     font-size: 18px;
     text-align: left;
     padding-top: 2vh;
@@ -72,7 +86,7 @@ main{
 
 #story_para_final {
     color: black;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Cardo";
     font-size: 18px;
     text-align: left;
     /* margin: 10px auto; */
@@ -80,35 +94,70 @@ main{
 }
 
 h2{
+    font-family: "Josefin Sans";
     text-align: left;
-    color: #7B8060;
+    color: #8E4331;
     font-size: 30px;
     max-width: 700px;
     /* margin: 10px auto; */
 }
 
+a {
+    color: #8E4331;
+}
 
 #drop-cap:first-child:first-letter {
-    color: #7B8060;
-    font-family: 'Montserrat', sans-serif;
+    color: #8E4331;
+    font-family: "Josefin Sans";
     font-weight: 600;
     font-size: 62px;
     float: left;
     line-height: 48px;
-    margin-top: 3px;
-    padding-right: 8px;
+    margin-top: 15px;
+    padding-right: 3px;
 }
 
 .page_break{
     display:flex;
 }
 
-#shirt{
+#shirt_1{
     position: relative;
-    fill: #7B8060;
-    width: 60%;
+    width: 20%;
     margin: 0 auto;
+    padding-bottom: 2vh;
 }
+
+#shirt_2{
+    position: relative;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: -3vh;
+    margin-bottom: 2vh;
+}
+
+#shirt_3{
+    position: relative;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: -1vh;
+    margin-bottom: 2vh;
+}
+
+#endmark{
+    position: relative;
+    width: 2%;
+    margin-left: 2px;
+}
+
+.footer {
+	width:100%;
+	height:50px;
+	position: relative;
+	bottom: 0;
+	max-width:100%;
+	background: #8E4331;
+	}
 
 #timeline{
     padding-top:10vh;
@@ -117,6 +166,7 @@ h2{
 
 #timeline_headline {
     font-size: 30px;
+    font-family: "Josefin Sans";
     color:#14163d;
 }
 
@@ -145,8 +195,8 @@ h2{
 .button{
     margin-top: 2vh;
     margin-right:2vh;
-    background-color: #E04641;
-    border: 1px solid #E04641;
+    background-color: #10244A;
+    border: 1px solid #10244A;
     border-radius: 5px;
     font-weight: bold;
     color: #fff;
@@ -162,14 +212,20 @@ input {
 
 .button:hover {
     background-color: #fff;
-    border: 1px solid #E04641;
-    color: #333;
+    border: 1px solid #8E4331;
+    color: #10244A;
 }
 
 /** Slideshow **/
 
+#slideshow{
+    padding-top:10vh;
+    padding-bottom:10vh;
+}
+
 #slideshow_text h1{
     margin-bottom: 5vh;
+    font-family: "Josefin Sans";
     font-size: 30px;
     text-align: center;
 }
@@ -284,4 +340,60 @@ input {
     width:63vh;
     height: 55vh;
     display:none;
+}
+
+
+/** Mobile Optimization **/
+@media screen and (max-width: 1200px) {
+    main{
+        max-width: 800px;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #hero-inner h3{
+        max-width: 500px;
+        margin: 10px auto;
+        color: white;
+        text-shadow: 0px 0px 10px #000;
+    }
+    
+    main{
+        max-width: 600px;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    #hero-inner h1{
+        max-width: 200px;
+        margin: 10px auto;
+        color: white;
+        font-size: 60px;
+        text-align: center;
+        text-shadow: 0px 0px 10px #000;
+    }
+
+    #hero-inner h3{
+        max-width: 200px;
+        margin: 10px auto;
+        color: white;
+        text-shadow: 0px 0px 10px #000;
+    }
+    
+    #hero-inner p{
+        max-width: 200px;
+        margin-top:10vh;
+        color: white;
+        text-align: center;
+        text-shadow: 0px 0px 10px #000;
+    }
+   
+
+    main{
+        max-width: 400px;
+        margin: 10px auto;
+    }
 }
