@@ -84,7 +84,7 @@ sup {
 .story_para {
     color: black;
     font-family: "Cardo";
-    font-size: 18px;
+    font-size: 1em;
     text-align: left;
     padding-top: 2vh;
     padding-bottom: 2vh;
@@ -95,13 +95,13 @@ sup {
 .pull_quote{
     color: #8E4331;
     font-family: "Josefin Sans";
-    font-size: 25px;
+    font-size: 1em;
     text-align: center;
     max-width: 600px;
     margin: 0px auto;
     padding-top: 4vh;
     padding-bottom: 4vh;
-    line-height: 5vh;
+    line-height: 4.2vh;
 }
 
 .attribution{
@@ -735,7 +735,7 @@ input {
   
 }
 
-@media (min-width: 320px) and (max-width: 700px) {
+@media (min-width: 320px) and (max-width: 699px) {
     
     #hero-inner h1{
         max-width: 250px;
@@ -766,8 +766,8 @@ input {
     }
    
     main{
-        max-width: 300px;
-        margin: 5px auto;
+        max-width: 100%;
+        padding: 0 10px;
     }
 
     .story_para {
@@ -803,36 +803,38 @@ input {
     }
 
     .attribution{
-    font-size: 12px;
-    font-family: "Cardo";
-}
+        font-size: 12px;
+        font-family: "Cardo";
+    }
 
     #shirt_1, #shirt_2, #shirt_3 {
         width: 50%;
     }
     
     #timeline_format{
-        max-width: 300px;
+        max-width: 100%;
+        padding: 0 10px;
     }
     
     #timeline_map {
-        max-width: 350px;
-        width:100%;
+        max-width: 100%;
         border: #14163d 3px solid;
     }
     
     #timeline_key{
         position: relative;
-        max-width: 300px;
-        margin-top:10px;
-        margin-left: 20px;
+        max-width: 100%;
+        padding: 0 10px;
+        margin-top: 10px;
+        margin-left: 50px;
         width: 70%;
     }
     
     .buttons{
         /* margin: 1vh auto; */
-        max-width: 700px;
-        margin-left: 20px;
+        max-width: 100%;
+        padding: 0 10px;
+        margin-left: 40px;
     }
     
     .button{
@@ -874,7 +876,7 @@ input {
     }
     
     #closet {
-        width: 50vw;
+        width: 90vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -887,24 +889,24 @@ input {
     
     .ivpic {
         display: inline-block;
-        width: 448px;
-        height: 256px;
+        width: 313.6px;
+        height: 179.2px;
     }
     
     
     .iv_portrait{
         display: inline-block;
         margin-left: 10px;
-        width: 256px;
-        height: 320px;
+        width: 179.2px;
+        height: 224px;
     }
     
 
     .iv_brand{
         display: inline-block;
         margin-left: 10px; 
-        width: 204.8px;
-        height: 256px;
+        width: 143.36px;
+        height: 179.2px;
     }
     
     
@@ -914,24 +916,24 @@ input {
     
     .wlpic {
         display: inline-block;
-        width: 448px;
-        height: 256px;
+        width: 313.6px;
+        height: 179.2px;
     }
     
     
     .wl_portrait{
         display: inline-block;
         margin-left: 10px;
-        width: 204.8px;
-        height: 256px;
+        width: 143.36px;
+        height: 179.2px;
     }
     
     
     .wl_accessory{
         display: inline-block;
         margin-left: 10px;
-        width: 224px;
-        height: 256px;
+        width: 156.8px;
+        height: 179.2px;
     }
     
     .rvca {
@@ -940,24 +942,25 @@ input {
     
     .rvpic {
         display: inline-block;
-        width: 448px;
-        height: 256px;
+        width: 313.6px;
+        height: 179.2px;
     }
     
     
     .rv_portrait{
         display: inline-block;
-        margin-left: 10px;
-        width: 262.4px;
-        height: 256px;
+        margin-left: 100px;
+        width: 250.88px;
+        height: 143.36px;
     }
 
     
     .rv_accessory{
         display: inline-block;
         margin-left: 10px;
-        width: 166.4px;
-        height: 256px;
+        margin-top: 0px;
+        width: 93.184px;
+        height: 143.36px;
     }
     
     .heldover {
@@ -966,24 +969,24 @@ input {
     
     .hopic {
         display: inline-block;
-        width: 448px;
-        height: 256px;
+        width: 313.6px;
+        height: 179.2px;
     }
     
     
     .ho_portrait{
         display: inline-block;
         margin-left: 10px;
-        width: 236.8px;
-        height: 256px;
+        width: 165.76px;
+        height: 179.2px;
         background-size: contain;
     }
     
     .ho_history{
         display: inline-block;
-        margin-left: 10px;
-        width: 236.8px;
-        height: 256px;
+        margin-left: 40px;
+        width: 165.76px;
+        height: 179.2px;
     }
 
 
