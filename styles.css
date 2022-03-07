@@ -525,7 +525,7 @@ input {
 @media (min-width: 320px) and (max-width: 700px) {
     
     #hero-inner h1{
-        max-width: 100px;
+        max-width: 250px;
         margin: 10px auto;
         color: white;
         font-size: 40px;
@@ -534,7 +534,7 @@ input {
     }
 
     #hero-inner h3{
-        max-width: 100px;
+        max-width: 225px;
         margin: 10px auto;
         color: white;
         line-height: 2vh;
@@ -542,7 +542,7 @@ input {
     }
     
     #hero-inner p{
-        max-width: 50px;
+        max-width: 200px;
         padding-top:10vh;
         color: white;
         text-align: center;
@@ -556,13 +556,13 @@ input {
     }
 
     .pull_quote{
-        max-width: 80px;
-        line-height: 3.5vh;
-        font-size: 22px;
+        max-width: 180px;
+        line-height: 2.5vh;
+        font-size: 18px;
     }
 
     #shirt_1, #shirt_2, #shirt_3 {
-        width: 30%;
+        width: 60%;
     }
     
     #timeline_format{
@@ -570,16 +570,16 @@ input {
     }
     
     #timeline_map {
-        max-width: 150px;
+        max-width: 250px;
         width:100%;
         border: #14163d 3px solid;
     }
     
     #timeline_key{
         position: relative;
-        max-width: 150px;
+        max-width: 250px;
         margin-top:10px;
-        margin-left: 40px;
+        margin-left: 20px;
         width: 60%;
     }
     
