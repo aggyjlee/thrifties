@@ -183,7 +183,7 @@ a {
 	bottom: 0;
 	max-width:100%;
 	background: #8E4331;
-	}
+}
 
 /* Timeline Interactive */   
 #timeline{
@@ -373,14 +373,14 @@ input {
 
 
 /** Mobile Optimization **/
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
     main{
         max-width: 800px;
         margin: 20px auto;
     }
-}
+} */
 
-@media screen and (max-width: 900px) {
+@media (min-width: 1000px) {
     #hero-inner h3{
         max-width: 350px;
         margin: 10px auto;
@@ -433,7 +433,7 @@ input {
 
 }
 
-@media screen and (max-width: 700px) {
+@media (min-width: 320px) and (max-width: 999px) {
     
     #hero-inner h1{
         max-width: 200px;
