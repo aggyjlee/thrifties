@@ -1,28 +1,15 @@
-// /** Scrollytelling */
+/** Scrollytelling */
 
-// // timeline - preplace pages off screen
-// const pageAnimations = gsap.timeline();
+function copyAnim(){
+    ScrollReveal().reveal(".the_essentials", {delay: 200, distance: "500px", origin:"left"});
+    ScrollReveal().reveal(".secondhand_trends", {delay: 400, distance: "500px", origin:"left"});
+    ScrollReveal().reveal(".ethics", {delay: 200, distance: "500px", origin:"left"});
+    ScrollReveal().reveal(".what_next", {delay: 400, distance: "1000px", origin:"top"});
+   }
+   
+   
+copyAnim();
 
-// pageAnimations.from(".two", {yPercent: 100})
-// .from(".three", {yPercent: 100})
-// .from(".four", {yPercent: 100})
-// .from(".five", {yPercent: 100})
-// .from(".six", {yPercent: 100})
-// .from(".seven", {yPercent: 100})
-// .from(".eight", {yPercent: 100})
-// .from(".nine", {yPercent: 100})
-// // .from(".ten", {yPercent: 100})
-
-
-// // "self contained" ScrollTrigger
-// ScrollTrigger.create({
-//     animation: pageAnimations,
-//     trigger: "article",
-//     start: "top top",
-//     end: "+=1000%",
-//     scrub: true,
-//     pin: true,
-// });
 
 
 /** Interactive Element – Timeline Map */
