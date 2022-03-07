@@ -95,13 +95,13 @@ sup {
 .pull_quote{
     color: #8E4331;
     font-family: "Josefin Sans";
-    font-size: 1em;
+    font-size: 2em;
     text-align: center;
     max-width: 600px;
     margin: 0px auto;
     padding-top: 4vh;
     padding-bottom: 4vh;
-    line-height: 4.2vh;
+    line-height: 4.5vh;
 }
 
 .attribution{
