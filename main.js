@@ -27,21 +27,21 @@ date_buttons.forEach(button => {
 })
 
 
-/** Interactive Element - Outfit Slideshow */
+// /** Interactive Element - Outfit Slideshow */
  
-function opendrawer1(){
-    TweenLite.to($('.iv_infocard') , {autoAlpha: 1, display:'inline-block'});
-}
+// function opendrawer1(){
+//     TweenLite.to($('.iv_infocard') , {autoAlpha: 1, display:'inline-block'});
+// }
 
-function opendrawer2(){
-    TweenLite.to($('.ho_infocard'), {autoAlpha: 1, display:'inline-block'});
-}
+// function opendrawer2(){
+//     TweenLite.to($('.ho_infocard'), {autoAlpha: 1, display:'inline-block'});
+// }
 
-function opendrawer3(){
-    TweenLite.to($('.wl_infocard'), {autoAlpha: 1, display:'inline-block'});
-}
+// function opendrawer3(){
+//     TweenLite.to($('.wl_infocard'), {autoAlpha: 1, display:'inline-block'});
+// }
 
-function opendrawer4(){
-    TweenLite.to($('.rv_infocard'), {autoAlpha: 1, display:'inline-block'});
-}
+// function opendrawer4(){
+//     TweenLite.to($('.rv_infocard'), {autoAlpha: 1, display:'inline-block'});
+// }
  

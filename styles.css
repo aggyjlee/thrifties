@@ -216,12 +216,12 @@ a {
 
 .buttons{
     /* margin: 1vh auto; */
-    max-width: 600px;
+    max-width: 750px;
 }
 
 .button{
     margin-top: 2vh;
-    margin-left: 1.1vh;
+    margin-left: 1vh;
     margin-right:2vh;
     background-color: #10244A;
     border: 1px solid #10244A;
@@ -246,7 +246,7 @@ input {
 
 /** Slideshow **/
 
-#slideshow{
+/* #slideshow{
     padding-top:10vh;
     padding-bottom:10vh;
 }
@@ -266,110 +266,150 @@ input {
     text-align: center;
 }
 
-/* .indigovintage {
-    border: 2px solid red;
-} */
+.indigovintage {
+    margin-bottom: 40px;
+} 
 
 .ivpic {
     display: inline-block;
-    width: 35vh;
-    height: 55vh;
-    background: url("images/indigovintage.jpg") no-repeat;
+    width: 700px;
+    height: 400px;
+    background: url("images/jjtoutfit.png") no-repeat;
     background-size: contain;
 }
 
 .ivpic:hover{
-    background: url("images/heldover.jpg") no-repeat;
+    background: url("images/jjtoutfithover.png") no-repeat;
     background-size: contain;
     cursor: pointer;
 }
 
-.iv_infocard{
-    background: url("images/heldover.jpg") no-repeat;
+.iv_portrait{
     display: inline-block;
-    width:63vh;
-    height: 55vh;
-    display:none;
-}
-/* 
-.heldover {
-    border: 2px solid red;
-} */
-
-.hopic {
-    display: inline-block;
-    width: 35vh;
-    height: 55vh;
-    background: url("images/heldover.jpg") no-repeat;
+    margin-left: 10px;
+    width: 320px;
+    height: 400px;
+    background: url("images/jjtportrait.png") no-repeat;
     background-size: contain;
 }
 
-.hopic:hover{
-    background: url("images/indigovintage.jpg") no-repeat;
-    background-size: contain;
-    cursor: pointer;
-}
-
-.ho_infocard{
-    background: url("images/heldover.jpg") no-repeat;
+.iv_brand{
     display: inline-block;
-    width:63vh;
-    height: 55vh;
-    display:none;
+    margin-left: 10px; 
+    width: 350px;
+    height: 400px;
+    background: url("images/jjtbrand.png") no-repeat;
+    background-size: contain;
 }
 
-/* .wasteland {
-    border: 2px solid red;
-} */
+
+.wasteland {
+    margin-bottom: 40px;
+} 
 
 .wlpic {
     display: inline-block;
-    width: 35vh;
-    height: 55vh;
-    background: url("images/wasteland.jpg") no-repeat;
+    width: 700px;
+    height: 400px;
+    background: url("images/delaneyoutfit.png") no-repeat;
     background-size: contain;
 }
 
 .wlpic:hover{
-    background: url("images/indigovintage.jpg") no-repeat;
+    background: url("images/delaneyoutfithover.png") no-repeat;
     background-size: contain;
     cursor: pointer;
 }
 
-.wl_infocard{
-    background: url("images/wasteland.jpg") no-repeat;
-    padding-left: 5vh;
+.wl_portrait{
     display: inline-block;
-    width:63vh;
-    height: 55vh;
-    display:none;
+    margin-left: 10px;
+    width: 320px;
+    height: 400px;
+    background: url("images/delaneyportrait.png") no-repeat;
+    background-size: contain;
 }
 
-/* .rvca {
-    border: 2px solid red;
-} */
+.wl_accessory{
+    display: inline-block;
+    margin-left: 10px;
+    width: 350px;
+    height: 400px;
+    background: url("images/delaneyaccessory.png") no-repeat;
+    background-size: contain;
+}
+
+.rvca {
+    margin-bottom: 40px
+} 
 
 .rvpic {
     display: inline-block;
-    width: 35vh;
-    height: 55vh;
-    background: url("images/rvca.jpeg") no-repeat;
+    width: 700px;
+    height: 400px;
+    background: url("images/jjtoutfit.png") no-repeat;
     background-size: contain;
 }
 
 .rvpic:hover{
-    background: url("images/indigovintage.jpg") no-repeat;
+    background: url("images/jjtoutfithover.png") no-repeat;
     background-size: contain;
     cursor: pointer;
 }
 
-.rv_infocard{
-    background: url("images/wasteland.jpg") no-repeat;
+.rv_portrait{
     display: inline-block;
-    width:63vh;
-    height: 55vh;
-    display:none;
+    margin-left: 10px;
+    width: 410px;
+    height: 400px;
+    background: url("images/emmyportrait.png") no-repeat;
+    background-size: contain;
 }
+
+.rv_accessory{
+    display: inline-block;
+    margin-left: 10px;
+    width: 260px;
+    height: 400px;
+    background: url("images/emmyaccessory.png") no-repeat;
+    background-size: contain;
+}
+
+.heldover {
+    margin-bottom: 40px
+}
+
+.hopic {
+    display: inline-block;
+    width: 700px;
+    height: 400px;
+    background: url("images/delaneyoutfit.png") no-repeat;
+    background-size: contain;
+}
+
+.hopic:hover{
+    background: url("images/delaneyoutfithover.png") no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.ho_portrait{
+    display: inline-block;
+    margin-left: 10px;
+    width: 370px;
+    height: 400px;
+    background: url("images/kevinportrait.png") no-repeat;
+    background-size: contain;
+}
+
+.ho_history{
+    display: inline-block;
+    margin-left: 10px;
+    width: 300px;
+    height: 400px;
+    background: url("images/kevinhistory.png") no-repeat;
+    background-size: contain;
+} */
 
 
 /** Mobile Optimization **/
@@ -528,7 +568,7 @@ input {
         max-width: 250px;
         margin: 10px auto;
         color: white;
-        font-size: 40px;
+        font-size: 30px;
         text-align: center;
         text-shadow: 0px 0px 10px #000;
     }
@@ -537,7 +577,8 @@ input {
         max-width: 225px;
         margin: 10px auto;
         color: white;
-        line-height: 2vh;
+        line-height: 3vh;
+        font-size: 13px;
         text-shadow: 0px 0px 10px #000;
     }
     
@@ -547,45 +588,77 @@ input {
         color: white;
         text-align: center;
         margin: 0px auto;
+        font-size: 10px;
         text-shadow: 0px 0px 10px #000;
     }
    
     main{
-        max-width: 200px;
-        margin: 10px auto;
+        max-width: 300px;
+        margin: 5px auto;
+    }
+
+    .story_para {
+        font-size: 12px;
+    }
+
+    #drop-cap:first-child:first-letter {
+        font-size: 52px;
+        line-height: 48px;
+        margin-top: 10px;
+        padding-right: 5px;
     }
 
     .pull_quote{
-        max-width: 180px;
-        line-height: 2.5vh;
+        max-width: 280px;
+        line-height: 4vh;
         font-size: 18px;
     }
 
+    h2{
+        font-family: "Josefin Sans";
+        text-align: left;
+        color: #8E4331;
+        font-size: 20px;
+        max-width: 700px;
+        /* margin: 10px auto; */
+    }
+
+    #timeline_headline {
+        font-size: 20px;
+        font-family: "Josefin Sans";
+        color:#14163d;
+    }
+
+    .attribution{
+    font-size: 12px;
+    font-family: "Cardo";
+}
+
     #shirt_1, #shirt_2, #shirt_3 {
-        width: 60%;
+        width: 50%;
     }
     
     #timeline_format{
-        max-width: 200px;
+        max-width: 300px;
     }
     
     #timeline_map {
-        max-width: 250px;
+        max-width: 350px;
         width:100%;
         border: #14163d 3px solid;
     }
     
     #timeline_key{
         position: relative;
-        max-width: 250px;
+        max-width: 300px;
         margin-top:10px;
         margin-left: 20px;
-        width: 60%;
+        width: 70%;
     }
     
     .buttons{
         /* margin: 1vh auto; */
-        max-width: 100px;
+        max-width: 700px;
         margin-left: 30px;
     }
     
