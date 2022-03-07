@@ -226,6 +226,7 @@ a {
     background-color: #10244A;
     border: 1px solid #10244A;
     border-radius: 5px;
+    font-family: "Josefin Sans";
     font-size: small;
     color: #fff;
     cursor: pointer;
@@ -246,7 +247,7 @@ input {
 
 /** Slideshow **/
 
-/* #slideshow{
+#slideshow{
     padding-top:10vh;
     padding-bottom:10vh;
 }
@@ -266,6 +267,14 @@ input {
     text-align: center;
 }
 
+#closet {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .indigovintage {
     margin-bottom: 40px;
 } 
@@ -274,12 +283,12 @@ input {
     display: inline-block;
     width: 700px;
     height: 400px;
-    background: url("images/jjtoutfit.png") no-repeat;
+    background: url("images/closet/jjtoutfit.png") no-repeat;
     background-size: contain;
 }
 
 .ivpic:hover{
-    background: url("images/jjtoutfithover.png") no-repeat;
+    background: url("images/closet/jjtoutfithover.png") no-repeat;
     background-size: contain;
     cursor: pointer;
 }
@@ -289,8 +298,14 @@ input {
     margin-left: 10px;
     width: 320px;
     height: 400px;
-    background: url("images/jjtportrait.png") no-repeat;
+    background: url("images/closet/jjtportrait.png") no-repeat;
     background-size: contain;
+}
+
+.iv_portrait:hover{
+    background: url("images/closet/jjtportraitdescription.png") no-repeat;
+    background-size: contain;
+    cursor: pointer;
 }
 
 .iv_brand{
@@ -298,7 +313,7 @@ input {
     margin-left: 10px; 
     width: 350px;
     height: 400px;
-    background: url("images/jjtbrand.png") no-repeat;
+    background: url("images/closet/jjtbrand.png") no-repeat;
     background-size: contain;
 }
 
@@ -311,12 +326,12 @@ input {
     display: inline-block;
     width: 700px;
     height: 400px;
-    background: url("images/delaneyoutfit.png") no-repeat;
+    background: url("images/closet/delaneyoutfit.png") no-repeat;
     background-size: contain;
 }
 
 .wlpic:hover{
-    background: url("images/delaneyoutfithover.png") no-repeat;
+    background: url("images/closet/delaneyoutfithover.png") no-repeat;
     background-size: contain;
     cursor: pointer;
 }
@@ -326,8 +341,14 @@ input {
     margin-left: 10px;
     width: 320px;
     height: 400px;
-    background: url("images/delaneyportrait.png") no-repeat;
+    background: url("images/closet/delaneyportrait.png") no-repeat;
     background-size: contain;
+}
+
+.wl_portrait:hover{
+    background: url("images/closet/delaneyportraitdescription.png") no-repeat;
+    background-size: contain;
+    cursor: pointer;
 }
 
 .wl_accessory{
@@ -335,7 +356,7 @@ input {
     margin-left: 10px;
     width: 350px;
     height: 400px;
-    background: url("images/delaneyaccessory.png") no-repeat;
+    background: url("images/closet/delaneyaccessory.png") no-repeat;
     background-size: contain;
 }
 
@@ -347,12 +368,12 @@ input {
     display: inline-block;
     width: 700px;
     height: 400px;
-    background: url("images/jjtoutfit.png") no-repeat;
+    background: url("images/closet/emmyoutfit.png") no-repeat;
     background-size: contain;
 }
 
 .rvpic:hover{
-    background: url("images/jjtoutfithover.png") no-repeat;
+    background: url("images/closet/emmyoutfithover.png") no-repeat;
     background-size: contain;
     cursor: pointer;
 }
@@ -362,8 +383,14 @@ input {
     margin-left: 10px;
     width: 410px;
     height: 400px;
-    background: url("images/emmyportrait.png") no-repeat;
+    background: url("images/closet/emmyportrait.png") no-repeat;
     background-size: contain;
+}
+
+.rv_portrait:hover{
+    background: url("images/closet/emmyportraitdescription.png") no-repeat;
+    background-size: contain;
+    cursor: pointer;
 }
 
 .rv_accessory{
@@ -371,24 +398,24 @@ input {
     margin-left: 10px;
     width: 260px;
     height: 400px;
-    background: url("images/emmyaccessory.png") no-repeat;
+    background: url("images/closet/emmyaccessory.png") no-repeat;
     background-size: contain;
 }
 
 .heldover {
-    margin-bottom: 40px
+    margin-bottom: 80px
 }
 
 .hopic {
     display: inline-block;
     width: 700px;
     height: 400px;
-    background: url("images/delaneyoutfit.png") no-repeat;
+    background: url("images/closet/kevinoutfit.png") no-repeat;
     background-size: contain;
 }
 
 .hopic:hover{
-    background: url("images/delaneyoutfithover.png") no-repeat;
+    background: url("images/closet/kevinoutfithover.png") no-repeat;
     background-size: contain;
     cursor: pointer;
 }
@@ -398,8 +425,14 @@ input {
     margin-left: 10px;
     width: 370px;
     height: 400px;
-    background: url("images/kevinportrait.png") no-repeat;
+    background: url("images/closet/kevinportrait.png") no-repeat;
     background-size: contain;
+}
+
+.ho_portrait:hover{
+    background: url("images/closet/kevinportraitdescription.png") no-repeat;
+    background-size: contain;
+    cursor: pointer;
 }
 
 .ho_history{
@@ -407,9 +440,10 @@ input {
     margin-left: 10px;
     width: 300px;
     height: 400px;
-    background: url("images/kevinhistory.png") no-repeat;
+    background: url("images/closet/kevinhistory.png") no-repeat;
     background-size: contain;
-} */
+}
+
 
 
 /** Mobile Optimization **/
@@ -464,6 +498,8 @@ input {
         margin-left: 7vh;
         margin-right:2vh;
     }
+
+    
 
     #endmark{
         position: relative;
@@ -552,6 +588,143 @@ input {
         cursor: pointer;
         display: inline-block;
         padding: 10px 18px;
+    }
+
+    #button_4{
+        margin-left: 0.5vh;
+    }
+
+    #slideshow{
+        padding-top:10vh;
+        padding-bottom:10vh;
+    }
+    
+    #slideshow_text h1{
+        color:#14163d;
+        margin-bottom: 5vh;
+        font-family: "Josefin Sans";
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    #slideshow_text p{
+        margin-top: -4vh;
+        margin-bottom: 5vh;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    #closet {
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .indigovintage {
+        margin-bottom: 40px;
+    } 
+    
+    .ivpic {
+        display: inline-block;
+        width: 560px;
+        height: 320px;
+    }
+    
+    
+    .iv_portrait{
+        display: inline-block;
+        margin-left: 10px;
+        width: 320px;
+        height: 400px;
+    }
+    
+
+    .iv_brand{
+        display: inline-block;
+        margin-left: 10px; 
+        width: 256px;
+        height: 320px;
+    }
+    
+    
+    .wasteland {
+        margin-bottom: 40px;
+    } 
+    
+    .wlpic {
+        display: inline-block;
+        width: 560px;
+        height: 320px;
+    }
+    
+    
+    .wl_portrait{
+        display: inline-block;
+        margin-left: 10px;
+        width: 256px;
+        height: 320px;
+    }
+    
+    
+    .wl_accessory{
+        display: inline-block;
+        margin-left: 10px;
+        width: 280px;
+        height: 320px;
+    }
+    
+    .rvca {
+        margin-bottom: 40px
+    } 
+    
+    .rvpic {
+        display: inline-block;
+        width: 560px;
+        height: 320px;
+    }
+    
+    
+    .rv_portrait{
+        display: inline-block;
+        margin-left: 10px;
+        width: 328px;
+        height: 320px;
+    }
+
+    
+    .rv_accessory{
+        display: inline-block;
+        margin-left: 10px;
+        width: 208px;
+        height: 320px;
+    }
+    
+    .heldover {
+        margin-bottom: 80px
+    }
+    
+    .hopic {
+        display: inline-block;
+        width: 560px;
+        height: 320px;
+    }
+    
+    
+    .ho_portrait{
+        display: inline-block;
+        margin-left: 10px;
+        width: 296px;
+        height: 320px;
+        background-size: contain;
+    }
+    
+    .ho_history{
+        display: inline-block;
+        margin-left: 10px;
+        width: 296px;
+        height: 320px;
     }
 
     #endmark{
@@ -659,12 +832,12 @@ input {
     .buttons{
         /* margin: 1vh auto; */
         max-width: 700px;
-        margin-left: 30px;
+        margin-left: 20px;
     }
     
     .button{
         margin-top: 2vh;
-        margin-left: 1.1vh;
+        margin-left: 1.5vh;
         margin-right:2vh;
         background-color: #10244A;
         border: 1px solid #10244A;
@@ -675,6 +848,144 @@ input {
         display: inline-block;
         padding: 10px 18px;
     }
+
+    #button_4{
+        margin-left: 0.8vh;
+    }
+
+    #slideshow{
+        padding-top:10vh;
+        padding-bottom:10vh;
+    }
+    
+    #slideshow_text h1{
+        color:#14163d;
+        margin-bottom: 5vh;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    #slideshow_text p{
+        margin-top: -4vh;
+        margin-bottom: 5vh;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    #closet {
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .indigovintage {
+        margin-bottom: 40px;
+    } 
+    
+    .ivpic {
+        display: inline-block;
+        width: 448px;
+        height: 256px;
+    }
+    
+    
+    .iv_portrait{
+        display: inline-block;
+        margin-left: 10px;
+        width: 256px;
+        height: 320px;
+    }
+    
+
+    .iv_brand{
+        display: inline-block;
+        margin-left: 10px; 
+        width: 204.8px;
+        height: 256px;
+    }
+    
+    
+    .wasteland {
+        margin-bottom: 40px;
+    } 
+    
+    .wlpic {
+        display: inline-block;
+        width: 448px;
+        height: 256px;
+    }
+    
+    
+    .wl_portrait{
+        display: inline-block;
+        margin-left: 10px;
+        width: 204.8px;
+        height: 256px;
+    }
+    
+    
+    .wl_accessory{
+        display: inline-block;
+        margin-left: 10px;
+        width: 224px;
+        height: 256px;
+    }
+    
+    .rvca {
+        margin-bottom: 40px
+    } 
+    
+    .rvpic {
+        display: inline-block;
+        width: 448px;
+        height: 256px;
+    }
+    
+    
+    .rv_portrait{
+        display: inline-block;
+        margin-left: 10px;
+        width: 262.4px;
+        height: 256px;
+    }
+
+    
+    .rv_accessory{
+        display: inline-block;
+        margin-left: 10px;
+        width: 166.4px;
+        height: 256px;
+    }
+    
+    .heldover {
+        margin-bottom: 80px
+    }
+    
+    .hopic {
+        display: inline-block;
+        width: 448px;
+        height: 256px;
+    }
+    
+    
+    .ho_portrait{
+        display: inline-block;
+        margin-left: 10px;
+        width: 236.8px;
+        height: 256px;
+        background-size: contain;
+    }
+    
+    .ho_history{
+        display: inline-block;
+        margin-left: 10px;
+        width: 236.8px;
+        height: 256px;
+    }
+
 
     #endmark{
         position: relative;
